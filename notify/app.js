@@ -7,7 +7,10 @@
            var notification = {
 
                initialize : function () {
+                var modelObj,viewObj ;
 
+                   modelObj = new this.model();
+                   viewObj = new this.view(modelObj);
                },
 
                registerforCLick : function () {

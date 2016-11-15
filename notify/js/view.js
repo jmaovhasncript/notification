@@ -2,8 +2,8 @@
  * Created by mohankumar on 15/11/16.
  */
 (function (W) {
-    W.notification.view = W.notification.view || function () {
-
+    W.notification.view = W.notification.view || function (modelObj) {
+            var model = modelObj;
             var registerForEvent = function (){
 
             };
